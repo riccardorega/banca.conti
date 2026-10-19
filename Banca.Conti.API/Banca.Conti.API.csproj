@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banca.Conti.Business\Banca.Conti.Business.csproj" />
+    <ProjectReference Include="..\Banca.Conti.Repository\Banca.Conti.Repository.csproj" />
+    <ProjectReference Include="..\Banca.Conti.Shared\Banca.Conti.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
